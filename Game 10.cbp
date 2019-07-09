@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game 10" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game 10" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="C:/Users/mikyj/OneDrive/Documents/SFML/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add library="sfml-audio-d" />
+					<Add directory="C:/Users/mikyj/OneDrive/Documents/SFML/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Game 10" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Animator.h" />
+		<Unit filename="include/Basic.h" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/GlobalData.h" />
+		<Unit filename="include/MainScreen.h" />
+		<Unit filename="include/PlayScreen.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/ScreenManager.h" />
+		<Unit filename="include/TileMap.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Animator.cpp" />
+		<Unit filename="src/Basic.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/GlobalData.cpp" />
+		<Unit filename="src/MainScreen.cpp" />
+		<Unit filename="src/PlayScreen.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/ScreenManager.cpp" />
+		<Unit filename="src/TileMap.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
